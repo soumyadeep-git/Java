@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=Operation
-comment0.text=Write\ a\ Java\ program\ to\ print\ the\ result\ of\ the\ following\ operations.\ Go\ to\ the\ editor\nTest\ Data\:\na.\ -5\ +\ 8\ *\ 6\nb.\ (55+9)\ %\ 9\nc.\ 20\ +\ -3*5\ /\ 8\nd.\ 5\ +\ 15\ /\ 3\ *\ 2\ -\ 8\ %\ 3
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-numComments=2
