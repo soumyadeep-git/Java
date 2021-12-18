@@ -13,12 +13,12 @@ public class SearchingArray {
 
         int arr[] = new int[100];
         for (int index = 0; index < size; index++) {
-            arr[index] = input.nextInt(); // this places all the elments in the indexes of the array
+            arr[index] = input.nextInt(); // storing the elements
 
         }
         System.out.print("The elements in your array are : ");
         for (int index = 0; index < size; index++) {
-            System.out.println(arr[index]); // this will print the elements
+            System.out.println(arr[index]); // printing th elements
         }
         boolean finder = false;
         for (int index = 0; index < size; index++) {
