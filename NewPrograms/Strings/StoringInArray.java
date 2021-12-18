@@ -2,7 +2,7 @@
 //This program stores the string in an array
 import java.util.Scanner;
 
-public class CharacterIndex {
+public class StoringInArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the string : ");
