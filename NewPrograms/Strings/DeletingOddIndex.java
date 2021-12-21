@@ -8,13 +8,14 @@ public class DeletingOddIndex {
         System.out.println("Enter the string : ");
         String str = input.nextLine();
         char arr[] = new char[str.length()];
-        int index =0;
 
-        for (index; index < str.length(); index++) {
-            arr[index] = str.charAt(index);
-        }
-        for (char ch : arr) {
-            System.out.println(ch);
+        for (int index = 0; index < str.length(); index++) {
+            if (index % 2 == 0) {
+                arr[index] = str.charAt(index);
+            }
+            for (char ch : arr) {
+                System.out.println(ch);
+            }
         }
     }
 }
