@@ -1,0 +1,27 @@
+                                                             Constructors 
+
+Constructors are methods to create an object
+They are of three types:
+
+1st => Non parameterized constructor
+
+Student() {
+
+}
+
+2nd => Parameterized contructor
+
+Student(String name, int age) {
+
+}
+
+3rd => Copy parametrized (they are used copy the objects of one to another)
+
+Student(Student one) {
+
+}
+
+As constructors there happens to to methods to destroy object i.e, DESTRUCTORS 
+
+But, in java there is no need of them beacuse the garbage collector here automatically deletes the unused objects, variables, methods which is being not used in the 
+code.
