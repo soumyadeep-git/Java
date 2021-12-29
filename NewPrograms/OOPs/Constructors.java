@@ -46,3 +46,9 @@ public class Constructors {
         second.printInfo();
     }
 }
+
+// NOTE : As constructors can create an object, there should be a way to also
+// destroy them
+// after use but in JAVA we don't have to do that manually
+// it get's automatically deleted with the help of garbage collector
+// it deletes every object, method, and variables which is not used in the code
